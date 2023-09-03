@@ -11,9 +11,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        val welBtn = findViewById<Button>(R.id.greet)
-//        val welText = findViewById<TextView>(R.id.hola)
-//        var count = 0
+        val welBtn = findViewById<Button>(R.id.greet)
+        val welText = findViewById<TextView>(R.id.hola)
+        var count = 0
 //        welBtn.setOnClickListener{
 //            count += 1
 //            welText.text = count.toString()
