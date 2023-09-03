@@ -14,10 +14,10 @@ class MainActivity : AppCompatActivity() {
         val welBtn = findViewById<Button>(R.id.greet)
         val welText = findViewById<TextView>(R.id.hola)
         var count = 0
-//        welBtn.setOnClickListener{
-//            count += 1
-//            welText.text = count.toString()
-//            Toast.makeText(this,"Hey, I'm your assistant.",Toast.LENGTH_LONG).show()
-//        }
+        welBtn.setOnClickListener{
+            count += 1
+            welText.text = count.toString()
+            Toast.makeText(this,"Hey, I'm your assistant.",Toast.LENGTH_LONG).show()
+        }
     }
 }
